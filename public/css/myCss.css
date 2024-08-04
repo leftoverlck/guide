@@ -1,0 +1,208 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.pagination-container {
+    margin-bottom: 30px;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #fff no-repeat center center;
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-center {
+    margin-bottom: 50px;
+}
+
+
+
+.pagination .page-item.active .page-link {
+    background-color: #6c757d !important; /* Сірий колір для фону активної сторінки */
+    border-color: #6c757d !important;     /* Сірий колір для рамки активної сторінки */
+    color: #fff !important;               /* Білий колір тексту */
+}
+
+.pagination .page-link {
+    color: #6c757d !important; /* Колір тексту для посилань пагінації */
+}
+
+.pagination .page-link:hover {
+    background-color: #5a6268 !important; /* Темніший сірий колір при наведенні */
+    border-color: #5a6268 !important;     /* Темніший сірий колір при наведенні */
+    color: #fff !important;               /* Білий колір тексту при наведенні */
+}
+/* Стиль для сірого кольору посилань */
+a {
+    color: #6c757d; /* Сірий колір */
+}
+
+a:hover {
+    color: #5a6268; /* Темніший сірий при наведенні */
+}
+.attraction-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+.attraction-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.card-box {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+
+
+/* Центрування тексту у футері */
+.footer .text-center {
+    margin: 0;
+    padding: 0;
+    color: #6c757d;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-center{
+    margin-bottom: 50px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+
+
+.pagination-container {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    margin-bottom: 50px;
+}
+
+/* Колір тексту посилань */
+a {
+    color: #6c757d; /* Сірий колір */
+}
+
+a:hover {
+    color: #5a6268; /* Темніший сірий при наведенні */
+}
+
+/* Стилі для тексту */
+p, .details {
+    color: #6c757d; /* Сірий колір для звичайного тексту */
+}
+
+/* Специфічний стиль для заголовків */
+h1, h2, h3, h4, h5, h6 {
+    color: #6c757d; /* Сірий колір для заголовків */
+}
+
+/* Специфічний стиль для посилань всередині елементів з класом .card-box */
+.card-box a {
+    color: #6c757d; /* Сірий колір */
+}
+
+.card-box a:hover {
+    color: #5a6268; /* Темніший сірий при наведенні */
+}
+.review-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.review-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.admin-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background: rgba(0, 128, 0, 0.1);
+    color: rgba(0, 128, 0, 0.8); /* Напівпелений текст */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 1000; /* Щоб елжди був зверху */
+    font-size: 14px;
+    opacity: 0.8;
+}
